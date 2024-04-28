@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="stylesheet" href="style.css"/>
+   
 </head>
 <body>
-    Hello smita
+    <div class="container">
+    <h1>BMI Calculater</h1>
+    <form>
+    <label for="txtheight">Height in CM</label>
+    <input type="text" name="txtheight" id="txtheight"/><br/>
+    <label for="txtwidth">Height in CM</label>
+    <input type="text" name="txtwidth" id="txtwidth"/><br/>
+    <input type="button" value="Calculate" id="btncalculate">
+    <div id="result"></div>
+    </form>
+    </div>
+   
 </body>
+<script src="BMICalculate.js"></script>
 </html>

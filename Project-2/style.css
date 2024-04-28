@@ -1,0 +1,36 @@
+.container
+{
+    width: 575px;
+    height: 825px;
+    background-color: gray;
+    padding-left: 350px;
+}
+#txtheight,
+#txtwidth
+{
+    height: 25px;
+    width: 150px;
+    margin-top: 30px;
+}
+btncalculate{
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+  
+    font-size: 25px;
+}
+#result
+{
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+
+}
